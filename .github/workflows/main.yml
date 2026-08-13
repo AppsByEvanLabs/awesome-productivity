@@ -10,4 +10,4 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - run: npx awesome-lint
+      - run: npx --yes awesome-lint@2.3.0
